@@ -294,10 +294,6 @@
                                 "required": true,
                                 "allowedValues": [
                                     {
-                                        "label":  "East US",
-                                        "value":  "eastus"
-                                    },
-                                    {
                                         "label":  "US Gov Virginia",
                                         "value":  "usgovvirginia"
                                     },
@@ -544,10 +540,6 @@
                             "defaultDescription": "A value for selection",
                             "constraints": {
                                 "allowedValues": [
-                                    {
-                                        "label": "East US",
-                                        "value": "eastus"
-                                    },
                                     {
                                         "label": "US Gov Virginia",
                                         "value": "usgovvirginia"
