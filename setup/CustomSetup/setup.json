@@ -294,13 +294,29 @@
                                 "required": true,
                                 "allowedValues": [
                                     {
-                                        "label":  "US Gov Virginia",
-                                        "value":  "usgovvirginia"
+                                        "label": "US Gov Virginia",
+                                        "value": "usgovvirginia"
                                     },
                                     {
-                                        "label":  "West US",
-                                        "value":  "westus"
-                                    }                   
+                                        "label": "US Gov Central",
+                                        "value": "usgovcentral"
+                                    },
+				    {
+                                        "label": "US Gov East",
+                                        "value": "usgoveast"
+                                    },
+                                    {
+                                        "label": "US Gov Arizona",
+                                        "value": "usgovarizona"
+                                    },
+                                    {
+                                        "label": "US Gov Iowa",
+                                        "value": "usgoviowa"
+				    },
+                                    {
+                                        "label": "US Gov Texas",
+                                        "value": "usgovtexas"
+                                    }                
                                 ]
                             },
                             "visible": "true"
@@ -369,8 +385,24 @@
                                         "value": "usgovvirginia"
                                     },
                                     {
-                                        "label": "West US",
-                                        "value": "westus"
+                                        "label": "US Gov Central",
+                                        "value": "usgovcentral"
+                                    },
+				    {
+                                        "label": "US Gov East",
+                                        "value": "usgoveast"
+                                    },
+                                    {
+                                        "label": "US Gov Arizona",
+                                        "value": "usgovarizona"
+                                    },
+                                    {
+                                        "label": "US Gov Iowa",
+                                        "value": "usgoviowa"
+				    },
+                                    {
+                                        "label": "US Gov Texas",
+                                        "value": "usgovtexas"
                                     }
                                 ],
                                 "required": "[equals(steps('Configuration').GrafanaStatus, 'New')]"
